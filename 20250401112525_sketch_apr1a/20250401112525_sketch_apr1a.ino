@@ -17,7 +17,7 @@ randomSeed(analogRead(0));
 void loop() {
   // put your main code here, to run repeatedly:
 Icd.clear();
-Icd.print("Press to Start");
+Icd.print("Changed for lab 11");
 
 while (digitalRead(3) == HIGH) {}
 
